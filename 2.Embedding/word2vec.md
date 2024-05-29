@@ -56,7 +56,11 @@ word2vec ：使用第 n - 1 个单词预测第 n 个单词的神经网络模型�
 - word2vec 的向量维度一般远比 tf-idf 的向量维度小得多，故而在计算时更快；
 - word2vec 的向量可以表达语义信息，但是 tf-idf 的向量不可以；
 - word2vec 可以通过计算余弦相似度来得出两个向量的相似度，但是 tf-idf 不可以；
+# 疑问？？？
+（1）层级softmax出来的向量词向量长度不一致？
 # 资料参考
 - https://www.cnblogs.com/rossiXYZ/p/13427829.html
 - https://cloud.tencent.com/developer/article/1794461
 - https://blog.csdn.net/qq_22795223/article/details/105627375
+- https://juejin.cn/post/7082767413682372616
+- https://guohongyi.com/2020/11/19/%E7%94%A8Python%E6%89%8B%E6%92%95word2vec/#cbow
